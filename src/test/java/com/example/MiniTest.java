@@ -9,9 +9,10 @@ public class MiniTest {
     @Test
     public void simpleTest() {
         // Setup ChromeDriver path - update this to your chromedriver location
-        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/thashthaf/Desktop/devops/new/demo1/chromedriver");
         
-        // Initialize browser
+        // Initialize brSystem.setProperty(
+    
         WebDriver driver = new ChromeDriver();
         
         try {
